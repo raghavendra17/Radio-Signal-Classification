@@ -17,9 +17,11 @@
 
 ## Steps to Build Model
 * Import Required Libraries
-* Load and Pre-process the datase to Load the dataset using the pandas read_csv function
+* Load the data using pd.read_csv 
 * Check the shape of the training and validation data 
-* Reshape the training and validation images
+* Check the data distribution
+* Preprocess the data
+  * Convert into numpy array and reshape the training and validation images
 * Visualize the dataset
 * Create Training and Validation Data Generators using Keras ImageDataGenerator function
 * Design a Convolutional Neural Network (CNN) Model
